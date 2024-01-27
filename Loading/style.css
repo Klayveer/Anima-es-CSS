@@ -1,0 +1,18 @@
+#loader {
+  position: fixed; /* Pode ser alterado! */
+  left: 50%; /* Pode ser alterado! */
+  top: 50%; /* Pode ser alterado! */
+  width: 40px;
+  height: 40px;
+  border: 10px solid;
+  border-radius: 50%;
+  border-color: #30b2ff;
+  border-top-color: transparent;
+  animation: Loading 0.6s linear infinite;
+}
+
+@keyframes Loading {
+  to {
+    transform: rotate(360deg);
+  }
+}
